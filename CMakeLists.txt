@@ -6,7 +6,7 @@ include_directories(
     lib/stb/include
 )
 
-add_library(remap_library
+add_library(remap_library STATIC
     src/color.c
     src/convert.c
     src/diff.c
@@ -27,4 +27,5 @@ set_target_properties(remap_executable
 
 add_subdirectory(test)
 
+install(TARGETS remap_library DESTINATION lib)
 install(TARGETS remap_executable DESTINATION bin)

@@ -2,7 +2,7 @@ include_directories(
     include
 )
 
-add_library(myassert
+add_library(myassert STATIC
     src/myassert.c
 )
 

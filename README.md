@@ -18,13 +18,13 @@ make install
 
 ## Usage
 
-```bash
+```
 remap inputFilename paletteFilename outputFilename
 ```
 
 ## Example
 
-```
+```bash
 remap dungeon.png endesga-32-1x.png output.png
 ```
 
@@ -33,3 +33,7 @@ remap dungeon.png endesga-32-1x.png output.png
 ![endesga-32-1x.png](endesga-32-32x.png)
 
 ![output.png](output.png)
+
+## References
+
+* https://github.com/markusn/color-diff
